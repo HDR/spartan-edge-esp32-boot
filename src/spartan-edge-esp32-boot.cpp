@@ -24,7 +24,7 @@ void spartan_edge_esp32_boot::begin(void) {
   // Mount SD Card
   if(!SD_MMC.begin()) {
     Serial.println("Card Mount Failed,please reboot the board");
-	while(1);
+    ESP.restart();
     return;
   }
 }
