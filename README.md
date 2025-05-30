@@ -53,7 +53,7 @@ Using these steps, you will be able to tell the ESP32 on the Spartan Edge Accele
 
 Install this Git repository as an additional library, either from a checked out Git repository or from [the Zip file](https://github.com/zwenergy/spartan-edge-esp32-boot/archive/master.zip). See [Installing Additional Arduino Libraries](https://www.arduino.cc/en/Guide/Libraries) 
 
-**Note:** Make sure the ESP32 Library version is below 1.0.6 or lower
+**Note:** Make sure the ESP32 Library version is 1.0.6 or lower
 
 2. ***Prepare SDCard***  
   2.1 Format the SDCard with FAT16/FAT32 filesystem.  
